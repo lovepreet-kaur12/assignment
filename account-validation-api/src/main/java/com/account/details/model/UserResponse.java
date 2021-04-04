@@ -7,13 +7,13 @@ public class UserResponse {
 
 	private String name;
 	private boolean status;
-	private String maskedPAN;
+	private String maskedPan;
 	
-	public UserResponse(String name,boolean status,String maskedPAN){
+	public UserResponse(String name,boolean status,String maskedPan){
 		
 			this.name=name;
 			this.status=status;
-			this.maskedPAN=maskedPAN;
+			this.maskedPan=maskedPan;
 	}
 	public String getName() {
 		return name;
@@ -30,11 +30,11 @@ public class UserResponse {
 	public void setStatus(boolean status) {
 		this.status = status;
 	}
-	public String getMaskedPAN() {
-		return maskedPAN;
+	public String getMaskedPan() {
+		return maskedPan;
 	}
-	public void setMaskedPAN(String maskedPAN) {
-		this.maskedPAN = maskedPAN;
+	public void setMaskedPAN(String maskedPan) {
+		this.maskedPan = maskedPan;
 	}
 	
 	

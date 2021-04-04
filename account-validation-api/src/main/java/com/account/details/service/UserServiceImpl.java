@@ -6,13 +6,12 @@ import com.account.details.masking.DataValidation;
 import com.account.details.masking.EncryptedPAN;
 import com.account.details.model.UserResponse;
 import com.account.details.model.User;
-import com.account.details.model.Users;
 
 @Service
 public class UserServiceImpl implements UserService{
 
 	
-	private static Users list=new Users();
+	private static User list=new User();
 	
 	@Override
 	public UserResponse addUser(User user) {
