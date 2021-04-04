@@ -1,0 +1,1 @@
+Used jacoco test coverage plugin to generate and check the code coverage
