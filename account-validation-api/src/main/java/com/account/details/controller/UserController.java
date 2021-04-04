@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.account.details.model.UserResponse;
 import com.account.details.model.User;
-import com.account.details.model.Users;
 import com.account.details.service.UserService;
 import com.account.details.masking.*;
 import java.util.*;
